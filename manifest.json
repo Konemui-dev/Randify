@@ -1,9 +1,9 @@
 {
     "manifest_version" : 3,
-    "name" : "Randify",
+    "name" : "Thumbnailify",
     "version" : "1.0",
-    "description" : "This is Randify an extension that allows you to upload random images and cover youtube video Thumbnails with them.",
-    "action" : {
+    "description" : "This is Thumbnailify an extension that allows you to upload random images and cover youtube video Thumbnails with them.",
+    "action" : { 
         "default_popup" : "popup.html",
         "default_icon" : "icons/icon-16.png"
     },
@@ -18,9 +18,7 @@
         {
             "js" : ["content.js"],
             "matches" : [
-                "https://www.youtube.com/*",
-                "https://www.twitch.tv/*"
-                
+                "https://www.youtube.com/*"
             ]
         }
     ]

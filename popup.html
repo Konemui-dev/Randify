@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./popup.css" />
+    <script defer src="popupfn.js"></script>
   </head>
   <body class="PopupBody">
     <template id="li_template">
       <li>
         <a>
-          <h3 class="title">Randify</h3>
+          <h3 class="title">Thumbnailify</h3>
           <p class="pathname">Tab Pathname</p>
         </a>
       </li>
     </template>
 
-    <h1>Google Dev Docs</h1>
-    <button>Toggle On</button>
-    
+    <h1 class="AppTitle">Thumbnailify</h1>
+    <button class="BtnTheme" type="button" id="ToggleTheme">Toggle Theme</button>
+    <button class="BtnTheme" type="button" id="ToggleStatus">Toggle Active</button>
     <select class="Select_List">
       <option value="1">Vtubers</option>
       <option value="2">Minecraft</option>

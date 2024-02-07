@@ -1,7 +1,26 @@
+:root{
+    --primary-color: #e7e7e7;
+    --secondary-colour: #2e2e2e;
+}
+
+.dark-theme{
+    --primary-color: #2e2e2e;
+    --secondary-colour: #e7e7e7;
+}
+
 body{
     width:40em;
     height:40em;
+    background-color: var(--primary-color);
 }
+p,h1,h3,button{
+    color: var(--secondary-colour);
+}
+.AppTitle{
+text-align: center;
+
+}
+
 
 .Select_List{
     position:relative;
